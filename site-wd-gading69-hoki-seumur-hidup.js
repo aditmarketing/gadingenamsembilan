@@ -17,8 +17,8 @@ const amounts = [
 
 // Fungsi untuk membuat username acak dengan sensor
 function generateUsername() {
-    const prefixes = ["pan", "Mak", "Ber", "ma", "sor", "Ja", "pri", "Fuj", "Ra", "Sc", "ko", "ka", "Ga", "Wa", "Su", "Mun", "Yu", "gar", "ab", "den", "uy"]; // Prefix acak
-    const suffixes = ["98", "23", "12", "01", "41", "12", "57", "76", "jt", "yz", "ip", "86", "29", "88", "78", "13", "ti", "08", "us", "om", "ca", "03", "44", "84", "57", "ar", "02", "ce"]; // Suffix acak
+    const prefixes = ["pan", "Mak", "Ber", "ma", "sor", "Ja", "pri", "Fuj", "Ra", "Sc", "ko", "ka", "Ga", "Wa", "Su", "Mun", "Yu", "gar", "ab", "den", "uy", "ka", "ad", "ma", "ok", "br", "Da", "Ja", "Ad", "Li", "De", "Uh", "ba", "BA", "el", "su", "da", "pe", "te", "ci", "cu"]; // Prefix acak
+    const suffixes = ["98", "23", "12", "01", "41", "12", "57", "76", "jt", "yz", "ip", "86", "29", "88", "78", "13", "ti", "08", "us", "om", "ca", "03", "44", "84", "57", "ar", "02", "ce", "50", "an", "us", "gg", "a1", "jp", "uy", "ia", "ck", "to", "in", "ke"]; // Suffix acak
     
     // Pilih prefix dan suffix acak
     const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
