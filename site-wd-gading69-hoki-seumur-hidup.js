@@ -25,7 +25,7 @@ function generateUsername() {
     const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
     
     // Buat username dengan sensor
-    const username = `${prefix}***${suffix}`;
+    const username = `${prefix}****${suffix}`;
     
     return username;
 }
